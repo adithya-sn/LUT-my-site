@@ -1,0 +1,103 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+.site-header {
+    background: #3f51b5;
+    color: #fff;
+    padding: 10px 5% 10px 5%;
+    /* top right bottom left; px keeps it fixed while pc makes it dynamic */
+    box-shadow: 0 1px 3px #999;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 20px;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.billboard {
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 40px;
+}
+
+.billboard h2 {
+    margin-top: 0;
+}
+
+.main-col {
+    float: left;
+    width: 70%;
+}
+
+.sidebar-col {
+    float: right;
+    width: 25%;
+    background: #CCC;
+    color: #FFF;
+    padding: 20px 2.5%;
+}
+
+.column-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-footer {
+    padding: 40px 5%;
+    background: #333;
+    color: #FFF;
+}
+
+.copywrite {
+    float: left;
+}
+
+.footer-nav {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li + li {
+    margin-left: 10px;
+}
+
+.main-footer a {
+    color: #FFF;
+    font-size: 12px;
+}
